@@ -15,7 +15,6 @@ dependencies:
     sdk: flutter
 
   # State Management
-  flutter_hooks: ^0.15.0
   stacked: ^1.7.6  
   stacked_services: ^0.6.6
 

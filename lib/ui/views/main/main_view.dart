@@ -49,6 +49,7 @@ class MainView extends StatelessWidget {
               child: getViewForIndex(model.currentIndex, model)),
           bottomNavigationBar: BottomNavigationBar(
             type: BottomNavigationBarType.fixed,
+            backgroundColor: ThemeColors.kUnSelectedColor,
             selectedItemColor: model.isIndexSelected(model.currentIndex) ? ThemeColors.kSelectedColor : ThemeColors.kWhite,
             unselectedItemColor: ThemeColors.kWhite,
             selectedLabelStyle: kBodyTextStyle(context, color: ThemeColors.kWhite),

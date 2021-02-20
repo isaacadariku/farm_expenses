@@ -1,3 +1,3 @@
 # farmexpenses
 
-Just design with Stacked #*smile*
+Just a design with Stacked #*smile*

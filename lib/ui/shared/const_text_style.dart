@@ -13,7 +13,7 @@ TextStyle kHeaderTextStyle(BuildContext context, {Color color, double size}) => 
     );
 
 /// -
-TextStyle kSubHeadingTextStyle(BuildContext context, {Color color, bool isNormal}) => GoogleFonts.lato(
+TextStyle kSubHeadingTextStyle(BuildContext context, {Color color, @required bool isNormal}) => GoogleFonts.lato(
       color: color,
       fontStyle: FontStyle.normal,
       fontWeight: isNormal ? FontWeight.normal : FontWeight.w600,
@@ -22,15 +22,15 @@ TextStyle kSubHeadingTextStyle(BuildContext context, {Color color, bool isNormal
 
 /// -
 TextStyle kBodyTextStyle(BuildContext context, {Color color}) => GoogleFonts.lato(
-      color: color,
+      color: color  ?? ThemeColors.kBlack,
       fontStyle: FontStyle.normal,
       fontWeight: FontWeight.normal,
       fontSize: SizeConfig.textSize(context, 4),
     );
 
 /// -
-TextStyle kButtonTextStyle(BuildContext context, {Color color}) => GoogleFonts.lato(
-      color: color,
+TextStyle kButtonTextStyle(BuildContext context, {@required Color color}) => GoogleFonts.lato(
+      color: color ,
       fontStyle: FontStyle.normal,
       fontWeight: FontWeight.w600,
       fontSize: SizeConfig.textSize(context, 2.5),

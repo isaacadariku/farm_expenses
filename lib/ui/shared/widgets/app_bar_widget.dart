@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import '../const_color.dart';
 import '../const_text_style.dart';
 
-Widget farmExpensesAppBar(context, {@required String leading}) {
+PreferredSizeWidget farmExpensesAppBar(context, {@required String leading}) {
   return AppBar(
     automaticallyImplyLeading: false,
     title: Text(

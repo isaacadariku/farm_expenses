@@ -4,7 +4,7 @@ import '../const_color.dart';
 import '../const_text_style.dart';
 
 class FarmExpensesCard extends StatelessWidget {
-  const FarmExpensesCard({Key key, this.date, this.expensesType, this.amount, this.isIncome}) : super(key: key);
+  const FarmExpensesCard({Key key, @required this.date, @required this.expensesType, @required this.amount, @required this.isIncome}) : super(key: key);
 
   final String date;
   final String expensesType;

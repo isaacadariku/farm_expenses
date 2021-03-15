@@ -101,9 +101,9 @@ class MoreView extends StatelessWidget {
       children: [
         Text(
           amount,
-          style: kHeaderTextStyle(context, color: isIncome ? BrandColors.kPrimary : BrandColors.kSecondary),
+          style: kHeaderTextStyle(context, color: isIncome ? BrandColors.kPrimary : BrandColors.kSecondary, size: 6),
         ),
-        Text(isIncome ? 'Total Income' : 'Total Expenses', style: kBodyTextStyle(context))
+        Text(isIncome ? 'Total Income' : 'Total Expenses', style: kBodyTextStyle(context, color: Colors.black))
       ],
     );
   }

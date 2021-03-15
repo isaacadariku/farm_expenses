@@ -29,6 +29,7 @@ class MyApp extends StatelessWidget {
         primaryColor: BrandColors.kPrimary,
         brightness: Brightness.light,
         accentColor: BrandColors.kPrimary,
+        visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       debugShowCheckedModeBanner: false,
       initialRoute: app_router.Routes.startupViewRoute,

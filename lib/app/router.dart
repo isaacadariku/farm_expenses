@@ -19,7 +19,7 @@ class Router {
     switch (settings.name) {
       case Routes.startupViewRoute:
         return MaterialPageRoute<dynamic>(
-          builder: (context) => const StartupView(),
+          builder: (context) => const StartUpView(),
           settings: settings,
         );
       case Routes.mainViewRoute:

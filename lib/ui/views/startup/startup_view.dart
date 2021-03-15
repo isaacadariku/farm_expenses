@@ -7,9 +7,9 @@ import '../../shared/const_text_style.dart';
 import 'startup_viewmodel.dart';
 
 /// -
-class StartupView extends StatelessWidget {
+class StartUpView extends StatelessWidget {
   /// -
-  const StartupView({Key key}) : super(key: key);
+  const StartUpView({Key key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
